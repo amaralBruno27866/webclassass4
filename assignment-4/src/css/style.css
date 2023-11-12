@@ -1,0 +1,30 @@
+:root {
+  --purple-100: #f2e6fa;
+  --purple-200: #d8bfd8;
+  --purple-300: #da70d6;
+  --purple-400: #8f00ff;
+  --purple-500: #9370db;
+  --purple-600: #800080;
+}
+
+nav {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem 1rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+h2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#menu {
+  text-align: center;
+}
+
+.top-header {
+  text-align: center;
+}
