@@ -1,58 +1,38 @@
-const Card = () => {
-  //Creating the div for a card
-  const card = document.createElement("div");
-  card.classList.add("card");
-  card.style.display = "none";
+const Card = (song) => {
+  const {
+    songId,
+    artistId,
+    title,
+    year,
+    duration,
+    url,
+    explicit,
+  } = song;
 
-  //Creating the content for a card inside the div
-  const header = document.createElement("header");
+  const cardContainer = document.createElement('div')
+  cardContainer.className = 'cardContainer'
 
-  const title = document.createElement("h2");
+  const card = document.createElement('div');
+  card.id = 'songCard';
+  card.className = 'card';
 
-  const btClose = document.createElement("i");
-  btClose.classList.add("ri-close-circle-fill");
+  const cardTitle = document.createElement('div');
+  cardTitle.innerHTML = `
+    <h2>${title} - ${year}</h2>
+  `
+  card.appendChild(cardTitle)
 
-  const youtube = document.createElement("iframe");
-  youtube.width = "560";
-  youtube.height = "315";
-  youtube.src = "#";
-  youtube.title = "YouTube video player";
-  youtube.frameborder = "0";
-  youtube.allow =
-    "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-  youtube.allowfullscreen = true;
+  const songFrame = document.createElement('div');
+  songFrame.id = 'songFrame';
+  songFrame.innerHTML = `<iframe src="${url}?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+  card.appendChild(songFrame);
 
-  const info = document.createElement("section");
+  cardContainer.appendChild(card)
 
-  const detail = document.createElement("aside");
-
-  const year = document.createElement("p");
-
-  const explicit = document.createElement("p");
-
-  const duration = document.createElement("p");
-
-  const footer = document.createElement("footer");
-
-  const artist = document.createElement("h3");
-
-  header.appendChild(title);
-  header.appendChild(btClose);
-
-  detail.appendChild(year);
-  detail.appendChild(explicit);
-  detail.appendChild(duration);
-
-  card.appendChild(header);
-  card.appendChild(youtube);
-  card.appendChild(info);
-  card.appendChild(detail);
-  card.appendChild(footer);
-
-  footer.appendChild(artist);
-
-  return card;
+  document.body.appendChild(cardContainer);
 };
 
-const card = Card();
-document.body.appendChild(card);
+
+window.card = (song) => {
+  Card(song)
+}

@@ -21,7 +21,7 @@ window.songs = [
     title: "Dias de luta, Dias de glória",
     year: "2007",
     duration: "145",
-    url: "#",
+    url: "https://www.youtube.com/watch?v=6eEOegzrwJg",
     explicit: false
   },
 
@@ -31,17 +31,17 @@ window.songs = [
     title: "Só os loucos sabem",
     year: "2005",
     duration: "205",
-    url: "#",
+    url: "https://www.youtube.com/watch?v=JRJj4z-prvM",
     explicit: false
   },
 
   {
     songId: "SID-14",
     artistId: "AID-1",
-    title: "Logar ao sol",
+    title: "Lugar ao sol",
     year: "2005",
     duration: "205",
-    url: "#",
+    url: "https://www.youtube.com/watch?v=uGAxnjss9g0",
     explicit: false
   },
 
@@ -51,7 +51,7 @@ window.songs = [
     title: "Tudo que ela gosta de escutar",
     year: "2009",
     duration: "174",
-    url: "#",
+    url: "https://www.youtube.com/watch?v=XGSWIJ9Eed0",
     explicit: false
   },
 
@@ -61,7 +61,7 @@ window.songs = [
     title: "Proíbida pra mim",
     year: "2004",
     duration: "168",
-    url: "#",
+    url: "https://www.youtube.com/watch?v=mgtVofuiPPQ",
     explicit: false
   },
 
@@ -71,7 +71,7 @@ window.songs = [
     title: "Admirável chip novo",
     year: "2003",
     duration: "205",
-    url: "#",
+    url: "https://www.youtube.com/watch?v=aXJ_Ub1xbhw",
     explicit: false
   },
 
@@ -81,7 +81,7 @@ window.songs = [
     title: "Na sua estante",
     year: "2005",
     duration: "245",
-    url: "#",
+    url: "https://www.youtube.com/watch?v=DP3j6hgS4VY",
     explicit: false
   },
 
@@ -91,7 +91,7 @@ window.songs = [
     title: "Equalize",
     year: "2003",
     duration: "255",
-    url: "#",
+    url: "https://www.youtube.com/watch?v=x7WHL-o5tMo",
     explicit: false
   },
 
@@ -101,7 +101,7 @@ window.songs = [
     title: "Memórias",
     year: "2005",
     duration: "239",
-    url: "#",
+    url: "https://www.youtube.com/watch?v=vH9TKF7C11U",
     explicit: false
   },
 
@@ -111,7 +111,7 @@ window.songs = [
     title: "Me adora",
     year: "2009",
     duration: "274",
-    url: "#",
+    url: "https://www.youtube.com/watch?v=66PrK9b_WD8",
     explicit: false
   },
 
@@ -121,7 +121,7 @@ window.songs = [
     title: "Máscara",
     year: "2005",
     duration: "299",
-    url: "#",
+    url: "https://www.youtube.com/watch?v=W4-G-itMgjI",
     explicit: false
   },
 
@@ -131,7 +131,7 @@ window.songs = [
     title: "Faroeste caboclo",
     year: "1987",
     duration: "594",
-    url: "#",
+    url: "https://www.youtube.com/watch?v=y1qGTz6_IQ0",
     explicit: false
   },
 
@@ -141,17 +141,17 @@ window.songs = [
     title: "Índios",
     year: "1986",
     duration: "259",
-    url: "#",
+    url: "https://www.youtube.com/watch?v=wTDrxNCYffg",
     explicit: false
   },
 
   {
     songId: "SID-33",
     artistId: "AID-3",
-    title: "Páis e Filhos",
+    title: "Pais e Filhos",
     year: "1989",
     duration: "309",
-    url: "#",
+    url: "https://www.youtube.com/watch?v=iApyBcSg-WA",
     explicit: false
   },
 
@@ -161,7 +161,7 @@ window.songs = [
     title: "Será",
     year: "1985",
     duration: "151",
-    url: "#",
+    url: "https://www.youtube.com/watch?v=2CnxonDrhdE",
     explicit: false
   },
 
@@ -171,7 +171,7 @@ window.songs = [
     title: "Eduardo e Mônica",
     year: "1986",
     duration: "272",
-    url: "#",
+    url: "https://www.youtube.com/watch?v=0ya1pVwxmDE",
     explicit: false
   },
 
@@ -181,7 +181,7 @@ window.songs = [
     title: "Há tempos",
     year: "1991",
     duration: "198",
-    url: "#",
+    url: "https://www.youtube.com/watch?v=2urEY7E91nA",
     explicit: false
   },
 
@@ -191,7 +191,7 @@ window.songs = [
     title: "Robocop Gay",
     year: "1995",
     duration: "180",
-    url: "#",
+    url: "https://www.youtube.com/watch?v=AeDhJ1bjjuU",
     explicit: true
   },
 
@@ -201,7 +201,7 @@ window.songs = [
     title: "Vira-Vira",
     year: "1995",
     duration: "142",
-    url: "#",
+    url: "https://www.youtube.com/watch?v=3lWoJMdquLs",
     explicit: true
   }
 ];

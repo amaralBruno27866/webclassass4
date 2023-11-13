@@ -15,7 +15,7 @@
 
 // All of our data is available on the global `window` object.
 // Create local variables to work with it in this file.
-const { artists, songs } = window;
+const { artists, songs, card } = window;
 
 const navMenu = document.getElementById("menu");
 
@@ -65,10 +65,14 @@ function musicList(artistId) {
   const tableBody = document.getElementById("songs");
   tableBody.innerHTML = "";
 
-  const artistSong = songs.filter((song) => song.artistId === artistId);
+  const artistSong = songs.filter((song) => song.artistId === artistId && !song.explicit);
 
   artistSong.forEach((song) => {
     const newRow = document.createElement("tr");
+
+    newRow.addEventListener("click", () => {
+      card(song);
+    });
 
     const songName = document.createElement("td");
     songName.textContent = song.title;
